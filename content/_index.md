@@ -4,4 +4,4 @@ toc: false
 ---
 
 ## easteregg
-i love Isabell Eduarda ❤
+i love Isabella Eduarda ❤

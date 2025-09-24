@@ -3,8 +3,14 @@ title: Satanoj-life.com
 languageCode: "pt-BR"
 baseURL: "https://satanoj-life.netlify.app/"
 
-# outputs:
-#   home: [HTML,RSS]
+outputs:
+  home: [HTML,RSS]
+
+services:
+  disqus:
+    shortname: satanoj
+  googleAnalytics:
+    ID: G-75BEK2VSWZ
 
 # import hextra as module
 module:
@@ -23,9 +29,6 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
-      weight: 1
     - name: About
       pageRef: /about
       weight: 2
@@ -36,6 +39,7 @@ menu:
       weight: 4
       params:
         type: search
+  sidebar: 
     - name: GitHub
       weight: 5
       url: "https://github.com/satanoj1lime/satanoj.life"
